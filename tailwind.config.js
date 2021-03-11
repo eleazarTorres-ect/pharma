@@ -4,14 +4,14 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'port-white-A': '#eef7fe',
-        'port-white-B': '#d3e2ee',
-        'port-neon-A': '#c3f74f',
-        'port-neon-B': '#a6e51f',
-        'port-neon-C': '#7da220',
-        'port-neon-D': '#4f631d',
-        'port-royal-A': '#465a6d',
-        'port-royal-B': '#001529'
+        'pharma-A-400': '#235196',
+        'pharma-A-300': '#4DD0E1',
+        'pharma-A-200': '#D1DDE8',
+        'pharma-A-100': '#E2FDFF',
+        'pharma-B-400': '#242626',
+        'pharma-B-300': '#3F5151',
+        'pharma-B-200': '#40605F',
+        'pharma-B-100': '#457775',
       }
     },
   },
