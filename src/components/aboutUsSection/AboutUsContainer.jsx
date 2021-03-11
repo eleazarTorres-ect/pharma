@@ -1,7 +1,7 @@
 import LeftContainer from "./LeftContainer";
 import RightContainer from "./RightContainer";
 
-const BannerContainer = () => {
+const AboutUsContainer = () => {
   return (
     <div
       className="h-auto lg:screenFromNav  w-full flex flex-col-reverse sm:flex-row justify-between
@@ -15,4 +15,4 @@ const BannerContainer = () => {
   );
 };
 
-export default BannerContainer;
+export default AboutUsContainer;
