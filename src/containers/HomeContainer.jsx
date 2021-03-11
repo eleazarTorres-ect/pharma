@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import AboutUsContainer from "../components/aboutUsSection/AboutUsContainer";
 import BannerContainer from "../components/bannerSection/BannerContainer";
+import ClientContainer from "../components/clientSection/ClientContainer";
 import GeneralFlowContainer from "../components/generalFlowSection/GeneralFlowContainer";
 import NavigationBar from "../components/navigationSection/NavigationBar";
 import QuickSearchContainer from "../components/quickSearchSection/QuickSearchContainer";
@@ -22,8 +23,11 @@ const HomeContainer = () => {
       <section className="flex content-center justify-between w-full">
         <ServicesContainer />
       </section>
-      <section className="flex content-center justify-between w-full bg-blue-100">
+      <section className="flex content-center justify-between w-full">
         <QuickSearchContainer />
+      </section>
+      <section className="flex content-center justify-between w-full">
+        <ClientContainer />
       </section>
     </React.Fragment>
   );
