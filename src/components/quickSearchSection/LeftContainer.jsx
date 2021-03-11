@@ -1,4 +1,3 @@
-import Logo1 from "../../assets/img/asset001.svg";
 import { BrowserRouter, NavLink } from "react-router-dom";
 
 const LeftContainer = () => {

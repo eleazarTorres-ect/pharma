@@ -1,4 +1,3 @@
-import Logo1 from "../../assets/img/pharma-06.svg";
 const LeftContainer = () => {
   return (
     <div className="p-5 w-full md:w-1/2">

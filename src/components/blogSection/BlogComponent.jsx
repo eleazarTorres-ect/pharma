@@ -1,7 +1,6 @@
 import Logo1 from "../../assets/img/blog.jpg";
 import Logo2 from "../../assets/img/blog.jpg";
 import Logo3 from "../../assets/img/blog.jpg";
-import Logo4 from "../../assets/img/blog.jpg";
 
 const BlogComponent = ({ id, title, description }) => {
   var imageUrl;

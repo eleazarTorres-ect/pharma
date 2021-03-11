@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import AboutUsContainer from "../components/aboutUsSection/AboutUsContainer";
 import BannerContainer from "../components/bannerSection/BannerContainer";
 import BlogContainer from "../components/blogSection/BlogContainer";

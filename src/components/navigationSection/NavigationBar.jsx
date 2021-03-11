@@ -1,8 +1,8 @@
 import $ from "jquery";
-import React, { Component } from "react";
+import React from "react";
 import MenuComponent from "./MenuComponent";
 import LogoNavComponent from "./LogoNavComponent";
-import Logo1 from "../../assets/img/asset001.svg";
+import Logo from "../../assets/img/asset001.svg";
 const NavigationBar = () => {
   const navPadding =
     "px-2 py-2  sm:py-4 sm:px-24 md:px-24 lg:px-48  shadow-md border-bottom-2  ";
@@ -59,7 +59,7 @@ const NavigationBar = () => {
   return (
     <nav className={navDisplay + navPadding}>
       <div className="flex flex-grow items-center hidden md:flex">
-        <LogoNavComponent image={Logo1} />
+        <LogoNavComponent image={Logo} />
       </div>
       <div className="flex items-center public_thin text-xs">
         <MenuComponent
