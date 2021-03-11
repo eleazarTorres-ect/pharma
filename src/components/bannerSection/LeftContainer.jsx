@@ -8,7 +8,7 @@ const LeftContainer = () => {
           Welcome to
         </div>
         <div className="flex flex-wrap justify-center lg:justify-start">
-          <img className="h-16 -ml-2" src={Logo1} />
+          <img className="h-16 -ml-2" src={Logo1} alt="Logo" />
         </div>
         <div className="public_regular text-lg lg:text-xl text-center md:text-left">
           Your All-in-One Pharmaceutical Website

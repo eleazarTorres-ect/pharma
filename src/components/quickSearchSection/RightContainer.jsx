@@ -1,4 +1,3 @@
-import Logo1 from "../../assets/img/asset002.svg";
 const RightContainer = () => {
   return (
     <div className="flex flex-wrap content-center justify-center mt-5 md:mt-0">

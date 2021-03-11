@@ -1,4 +1,3 @@
-import Logo1 from "../../assets/img/asset001.svg";
 const RightContainer = () => {
   return (
     <div className="p-5 w-full md:w-1/2">

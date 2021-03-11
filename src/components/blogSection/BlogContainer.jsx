@@ -3,7 +3,7 @@ import BlogComponent from "./BlogComponent";
 const BlogContainer = () => {
   return (
     <div
-      className="h-auto w-full flex-wrap justify-center
+      className="h-auto xl:h-screen w-full flex-wrap justify-center
                   py-10
                   px-2 sm:px-24 md:px-24 lg:px-48"
       id="blog"
