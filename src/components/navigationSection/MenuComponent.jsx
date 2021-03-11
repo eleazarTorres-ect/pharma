@@ -2,14 +2,14 @@ const MenuComponent = ({ linkReference, id, status, label }) => {
   return (
     <a
       href={linkReference}
-      className="w-full px-2 py-2 lg:inline-flex lg:w-auto text-port-royal-B hover:text-port-royal-B"
+      className="w-12 md:w-16 relative mx-1 lg:px-2 py-2 flex justify-center items-center text-pharma-A-400 hover:text-pharma-A-400"
     >
-      <span
+      <div
         id={id}
-        className="pb-1 border-b-2 public_semibold border-port-royal-B"
+        className="pb-1 border-b-0  public_semibold border-pharma-A-400"
       >
         {label}
-      </span>
+      </div>
     </a>
   );
 };
