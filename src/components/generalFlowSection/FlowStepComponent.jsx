@@ -44,7 +44,7 @@ const FlowStepComponent = ({ id, title, description }) => {
         <div className="flex flex-wrap justify-center">
           <div className={btnDefault}>
             <button className="border primary-color-A-400 px-3 py-2 text-xs rounded-full mt-2 text-white w-48">
-              <a href="#quickSearchSection">GO TO QUICK SEARCH </a>
+              <a href="#quickSearch">GO TO QUICK SEARCH </a>
             </button>
           </div>
         </div>
