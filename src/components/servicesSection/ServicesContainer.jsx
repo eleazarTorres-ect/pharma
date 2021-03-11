@@ -6,7 +6,7 @@ const ServicesContainer = () => {
       className="h-auto w-full flex flex-wrap justify-center
                   py-10
                   px-2 sm:px-24 md:px-24 lg:px-48"
-      id="generalFlow"
+      id="services"
     >
       <div className="public_semibold  justify-center text-center text-pharma-A-400 text-3xl">
         What We Offer
