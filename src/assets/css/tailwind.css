@@ -6,6 +6,10 @@ html {
   }
 /* Start Fonts Definition */
 
+.screenFromNav{
+  height: 100vh - 36px;
+}
+
 @font-face{
     src: url(../fonts/Arciform.otf);
     font-family: arciform;
