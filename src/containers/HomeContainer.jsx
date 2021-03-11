@@ -3,6 +3,7 @@ import AboutUsContainer from "../components/aboutUsSection/AboutUsContainer";
 import BannerContainer from "../components/bannerSection/BannerContainer";
 import BlogContainer from "../components/blogSection/BlogContainer";
 import ClientContainer from "../components/clientSection/ClientContainer";
+import ContactUsContainer from "../components/contactSection/ContactUsSection";
 import GeneralFlowContainer from "../components/generalFlowSection/GeneralFlowContainer";
 import NavigationBar from "../components/navigationSection/NavigationBar";
 import QuickSearchContainer from "../components/quickSearchSection/QuickSearchContainer";
@@ -33,6 +34,9 @@ const HomeContainer = () => {
       </section>
       <section className="flex content-center justify-between w-full">
         <BlogContainer />
+      </section>
+      <section className="flex content-center justify-between w-full">
+        <ContactUsContainer />
       </section>
     </React.Fragment>
   );
