@@ -12,11 +12,27 @@ module.exports = {
         'pharma-B-300': '#3F5151',
         'pharma-B-200': '#40605F',
         'pharma-B-100': '#457775',
-      }
+      },
+      
+       keyframes: {
+        bounce_idle: {
+          '0%, 100%': { 
+            transform: 'translateY(-25%)',
+            animationTimingFunction: 'cubic-bezier(0.8, 0, 1, 1)'
+           },
+          '50%': { 
+            transform: 'translateY(0)',
+            animationTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)'
+           },
+        }
+       }
+
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      animation: ['hover', 'focus'],
+    },
   },
   plugins: [
     require('tailwindcss-debug-screens'),
