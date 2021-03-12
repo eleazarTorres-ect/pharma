@@ -8,7 +8,11 @@ const ClientContainer = () => {
                   px-2 sm:px-24 md:px-24 lg:px-48"
       id="clients"
     >
-      <div className="public_semibold  justify-center text-center text-pharma-A-400 text-3xl">
+      <div
+        className="public_semibold  justify-center text-center text-pharma-A-400 text-3xl"
+        data-aos="fade-down"
+        data-aos-duration="500"
+      >
         Partner Laboratories
       </div>
       <div className="flex flex-wrap justify-center">

@@ -28,7 +28,7 @@ const FlowStepComponent = ({ id, title, description }) => {
     btnDefault = "flex justify-center invisible";
   }
   return (
-    <div className="max-w-sm h-80 w-64 md:w-56 lg:w-64 2xl:w-96  rounded overflow-hidden flex flex-wrap content-between   m-5 py-2 md:py-5 xl:py-10  hover:shadow-xl transform hover:scale-110 transition duration-150 ease-in-out shadow-lg">
+    <div className="max-w-sm h-80  w-64 md:w-56 lg:w-64 2xl:w-96  rounded overflow-hidden flex flex-wrap content-between   m-5 py-2 md:py-5 xl:py-10  hover:shadow-xl transform hover:scale-110 transition duration-150 ease-in-out shadow-lg">
       <div>
         <div className="flex flex-wrap  justify-center content-center">
           <img className="h-24  w-auto" src={imageUrl} alt={title} />

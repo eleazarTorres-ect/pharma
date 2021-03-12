@@ -3,7 +3,13 @@ const RightContainer = () => {
   return (
     <div className=" flex flex-wrap w-full lg:w-1/2 content-center justify-center">
       <div className="flex flex-grow flex-wrap content-center justify-center">
-        <img className="h-48 lg:h-full" src={Logo1} alt="Banner" />
+        <img
+          data-aos="fade-left"
+          data-aos-duration="2000"
+          className="h-48 lg:h-full shake-slow animate-bounce_idle transform hover:scale-110 transition duration-150 ease-in-out"
+          src={Logo1}
+          alt="Banner"
+        />
       </div>
     </div>
   );
