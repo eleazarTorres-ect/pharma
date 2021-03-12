@@ -7,6 +7,8 @@ const GeneralFlowContainer = () => {
                   py-10
                   px-2 sm:px-24 md:px-24 lg:px-48"
       id="generalFlow"
+      data-aos="fade-down"
+      data-aos-duration="2000"
     >
       <FlowStepComponent
         id="1"

@@ -7,6 +7,8 @@ const BlogContainer = () => {
                   py-10
                   px-2 sm:px-24 md:px-24 lg:px-48"
       id="blog"
+      data-aos="fade-down"
+      data-aos-duration="500"
     >
       <div className="public_semibold  justify-center 2xl:justify-center text-center text-pharma-A-400 text-3xl">
         Latest News

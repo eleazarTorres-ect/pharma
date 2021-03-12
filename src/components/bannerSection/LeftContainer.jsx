@@ -2,13 +2,21 @@ import Logo1 from "../../assets/img/asset001.svg";
 import SubscriptionComponent from "./SubscriptionComponent";
 const LeftContainer = () => {
   return (
-    <div className="flex flex-wrap content-center w-full lg:w-1/2">
+    <div
+      className="flex flex-wrap content-center w-full lg:w-1/2"
+      data-aos="fade-right"
+      data-aos-duration="2000"
+    >
       <div>
         <div className="public_regular text-3xl text-center md:text-left">
           Welcome to
         </div>
         <div className="flex flex-wrap justify-center lg:justify-start">
-          <img className="h-16 -ml-2" src={Logo1} alt="Logo" />
+          <img
+            className="h-16 -ml-2 shake-little shake-little"
+            src={Logo1}
+            alt="Logo"
+          />
         </div>
         <div className="public_regular text-lg lg:text-xl text-center md:text-left">
           Your All-in-One Pharmaceutical Website

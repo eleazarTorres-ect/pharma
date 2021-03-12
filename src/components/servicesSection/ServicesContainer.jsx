@@ -8,7 +8,11 @@ const ServicesContainer = () => {
                   px-2 sm:px-24 md:px-24 lg:px-48"
       id="services"
     >
-      <div className="public_semibold  justify-center text-center text-pharma-A-400 text-3xl">
+      <div
+        className="public_semibold  justify-center text-center text-pharma-A-400 text-3xl"
+        data-aos="fade-down"
+        data-aos-offset="200"
+      >
         What We Offer
       </div>
       <div className="flex flex-wrap justify-center">

@@ -1,7 +1,7 @@
 const RightContainer = () => {
   return (
     <div className="flex flex-wrap content-center w-full lg:w-1/2">
-      <div>
+      <div data-aos="fade-left" data-aos-duration="200">
         <div className="public_semibold text-pharma-A-400 text-3xl text-center md:text-right">
           About Us
         </div>
